@@ -4,11 +4,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>income Certificate</title>
+    <title> income Certificate</title>
 </head>
+<style>
+    h2 {
+        color: blueviolet;
 
-<body>
-    <h2>Income Certificate Form</h2>
+        background-color: blanchedalmond;
+    }
+</style>
+<style>
+    #Occupation {
+        color: rgb(0, 0, 0);
+        background-color: rgb(32, 184, 255);
+
+    }
+</style>
+<style>
+    #category {
+        background-color: rgb(209, 205, 10);
+        color: rgb(0, 13, 7);
+    }
+
+    #fathersname {
+        color: rgb(17, 3, 3);
+        background-color: rgb(251, 255, 2);
+    }
+
+    .income {
+        color: cadetblue;
+        background-color: black;
+    }
+    #oc{
+        color: azure;
+        background-color: black;
+    }
+    #bd{
+        color: aliceblue;
+        background-color: black;
+    }
+    #table{
+        color: rgb(174, 104, 18);
+        background-color: darkgray;
+    }
+    #dob{
+        color: bisque;
+        background-color: black;
+    }
+    #father{
+        color: aqua;
+        background-color: black;
+    }
+</style>
+
+<body id="bd">
+
+    <h2 class="income">Income Certificate Form</h2>
     <form action="thankyou.html">
         <div>
             <label for="applicantName">Applicant Name
@@ -16,13 +67,13 @@
             </label>
         </div>
         <br>
-        <div>
+        <div id="dob">
             D.O.B:<input type="date">
         </div>
         <br>
-        <div>
+        <div class="income">
             <label for="category">Category</label>
-            <select name="Category">
+            <select name="Category" id="category">
                 <option value=null>choose</option>
                 <option value="General">General</option>
                 <option value="OBC">OBC</option>
@@ -31,13 +82,15 @@
 
         </div>
         <br>
-        <div>
-            <label for="Father's Name"> Father's Name</label>
+        <div id="father">
+
+            <label for="Father's Name"> Father's Name </label>
             <input type="text">
         </div>
 
         <br>
-        <div>
+        <div id="oc">
+
             <label for="Father's Occupation">Father's Occupation</label>
             <select name="Occupation" id="Occupation">
                 <option value=null>choose</option>
@@ -67,7 +120,7 @@
                 </select>
                 <br>
 
-                <div>
+                <div id="table">
                     <table>
                         <thead>
                             <tr>
@@ -133,7 +186,7 @@
                         <input type="reset">
 
                     </div>
-                    
+
 
 
 
@@ -143,6 +196,12 @@
 
 
     </form>
+    <span>
+        &copy; copyright reservecd
+    </span>
+    <span>
+        by govt of India
+    </span>
 </body>
 
 </html>
