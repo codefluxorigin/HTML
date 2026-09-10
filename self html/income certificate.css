@@ -2,11 +2,15 @@ h2 {
     color: blueviolet;
 
     background-color: blanchedalmond;
+
+
 }
 
 #Occupation {
+   
     color: rgb(0, 0, 0);
     background-color: rgb(32, 184, 255);
+    
 
 }
 
@@ -48,4 +52,7 @@ h2 {
 #father {
     color: aqua;
     background-color: black;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
